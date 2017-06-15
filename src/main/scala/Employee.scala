@@ -1,7 +1,6 @@
 /**
   * Created by Administrator on 15/06/2017.
   */
-class Employee {
   class Employee(val firstName: String,
                  var surName: String,
                  val dateOfBirth: String,
@@ -18,4 +17,3 @@ class Employee {
       s"Name: $firstName $surName. Date of Birth: $dateOfBirth. Address: $addressLine1 $addressLine2 $addressLine3. Post Code: $postCode. Email: $email Phone Number: $phoneNumber. Employee ID: $employeeId. Job Title: $jobTitle"
     }
   }
-}
